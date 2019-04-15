@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5c854badab2feb07b8e64435"},"username":"Test User","email":"test@gmail.com","password":"$2b$10$PYbYE065mgxMGinQswOXR.B28M0IBev5g3AnvgLuVfOooc/qLSCam","__v":0}
+{"_id":{"$oid":"5c85587d6bf04f27a8a3303e"},"username":"Mario Rossi","email":"mario@gmail.com","password":"$2b$10$0CLXXWTkgEGU5iwJMKKSIOAkpEqRHo0ffXK5dP2s5s.BBS1nvxrDu","__v":0}
+{"_id":{"$oid":"5c879ed76b7ed322b0e2d079"},"username":"Shojib","email":"shojib@gmail.com","password":"$2b$10$9x6IlGL1DIwyrw55wNFwt.pPHoTL0BL8VzDuPLTV5D7V5hhOH4MdK","__v":0}
+{"_id":{"$oid":"5c898b8532446c3770e91b00"},"username":"Mario Balotelli","email":"balo@gmail.com","password":"$2b$10$tNKun0ONXILLJiNPKzL/lucV/ds0Ih0df6fZVhqACw3K2Y5fH9Vk6","__v":0}
+{"_id":{"$oid":"5c898c48d17fcf28c097e9ca"},"username":"Jesus Navas","email":"navas@gmail.com","password":"$2b$10$kbAlw5eRGtyfKb/PP3DXV.xpX/xCgm4Wql/cTBdzXazvsDUoV3ADC","__v":0}
+{"_id":{"$oid":"5c898c86d17fcf28c097e9cb"},"username":"Jesus Navarro","email":"navarro@gmail.com","password":"$2b$10$P57k8JL9T1OxdxebOvfQvO77N8Mx.sm6HAOn4DgirJcaCZjMWjXq.","__v":0}
+{"_id":{"$oid":"5c8ac5a492ce480444229b4e"},"username":"Jesus Navarrrro","email":"navarro1@gmail.com","password":"$2b$10$rzCuCT/wJyyddwa7WRmUW.4B51ffK7zDYxOgz.fTnhWDUSnaKF1FG","__v":0}
