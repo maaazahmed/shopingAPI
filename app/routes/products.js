@@ -4,7 +4,6 @@ var mongoose = require("mongoose")
 var Product = require("../models/ProductModel")
 
 router.post("/createProducts", (req, res) => {
-    console.log(req.body)
     const product = new Product({
         imageUrl:req.body.imageUrl,
         name: req.body.name,
@@ -18,7 +17,6 @@ router.post("/createProducts", (req, res) => {
         res.send(data);
     })
     .catch(err => {
-        console.log(err)
             res.status(500).send({
                 message: err.message
             });
@@ -41,7 +39,7 @@ router.post("/createProducts", (req, res) => {
 // ====>>>URL :  http://localhost:8000/product/getProduct?category=Shorts
 router.get("/getProduct", (req, res) => {
     // Product.find({ category: req.query.category }).exec().then((data) => {
-        Product.find().exec().then((data) => {
+        Product.find({category:{$in:[req.query.fashion]}}).exec().then((data) => {
         res.send(data)
     }).catch((error) => {
         res.send(error)
